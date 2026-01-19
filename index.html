@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>NUVO MUEBLERIA</title>
+  <link rel="icon" type="image/png" href="./img/LogoW.png" />
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Tu CSS (SIEMPRE después) -->
+  <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+  <header class="py-3">
+    <h1 class="text-center">
+      NUVO <span>MUEBLERIA</span>
+    </h1>
+  </header>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/LogoW.png" alt="Logo" width="40" height="34">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tienda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+        <form class="d-flex align-items-center" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'PLAYFAIR DISPLAY', serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./img/principal.jpg");
+  height: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: lightgrey;
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  letter-spacing: 3px;
+  width: 100%;
+  font-size: clamp(24px, 6vw, 52px); 
+}
+</style>
+    
+  </section>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>ELEGANCIA Y DISEÑO PARA TU HOGAR</h1>
+  </div>
+</div>
+
+
+
+
+<main>
+
+  <h2 class="py-3 text-center">NUESTROS PRODUCTOS</h2>
+
+  <section>
+  <article>
+    <div class="container my-4">
+      <div class="row g-4 align-items-stretch">
+
+        <div class="col-md-6">
+        <img src="./img/producto1.jpg" class="w-100 h-100 img-cover" alt="Combo Nordico">
+        </div>
+
+        <div class="col-md-6 bg-secondary p-3 d-flex flex-column justify-content-center">
+          <h3 class="text-center">COMBO NORDICO</h3>
+
+          <p>
+            Un conjunto de mobiliario de diseño minimalista que aporta orden, amplitud y elegancia a tu espacio.
+            Sus líneas limpias y tonos claros crean un ambiente moderno, funcional y armonioso, ideal para recámaras contemporáneas o espacios compactos
+          </p>
+
+          <span class="text-center mb-3">Precio: $12,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4">
+            Comprar
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </article>
+</section>
+
+  <section>
+  <div class="container my-4">
+    <div class="row g-4 align-items-start">
+
+      <!-- PRODUCTO 2 -->
+      <div class="col-md-6">
+        <img src="./img/producto2.jpg" class="w-100 h-100 img-cover" alt="AURA">
+
+        <div class="bg-secondary p-3 d-flex flex-column justify-content-center h-100">
+          <h3 class="text-center">AURA</h3>
+
+          <p>
+            Un aparador de diseño contemporáneo que aporta equilibrio, sofisticación y orden a tu espacio.
+            Sus líneas limpias y tonos neutros crean un ambiente sereno y elegante, ideal para salas o áreas sociales de estilo moderno.
+          </p>
+
+          <span class="text-center mb-3">Precio: $8,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4 mt-auto">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 3 -->
+      <div class="col-md-6">
+        <img src="./img/producto3.jpg" class="w-100 h-100 img-cover" alt="RECAMARA LINO">
+
+        <div class="bg-secondary p-3 d-flex flex-column justify-content-center h-100">
+          <h3 class="text-center">RECAMARA LINO</h3>
+
+          <p>
+            Un conjunto de recámara de diseño minimalista que transmite calma y equilibrio.
+            Sus tonos neutros, texturas suaves y líneas limpias crean un ambiente acogedor y elegante, ideal para espacios contemporáneos.
+          </p>
+
+          <span class="text-center mb-3">Precio: $15,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4 mt-auto">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section>
+  <div class="container my-4">
+    <div class="row g-4 align-items-start">
+
+      <!-- PRODUCTO 4 -->
+      <div class="col-md-4">
+        <img src="./img/producto4.jpg" class="w-100 img-cover" alt="NUBE">
+
+        <div class="bg-secondary p-3 d-flex flex-column justify-content-center producto-card text-center">
+          <h3>NUBE</h3>
+
+          <p>
+            Un sofá de diseño contemporáneo que combina confort y sofisticación.
+            Sus líneas limpias, cojines generosos y tonos neutros crean un ambiente sereno y acogedor.
+          </p>
+
+          <span class="mb-3">Precio: $6,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4 mt-auto">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 5 -->
+      <div class="col-md-4">
+        <img src="./img/producto5.jpg" class="w-100 img-cover" alt="RINCON ATLAS">
+
+        <div class="bg-secondary p-3 d-flex flex-column justify-content-center producto-card text-center">
+          <h3>RINCON ATLAS</h3>
+
+          <p>
+            Un conjunto decorativo de inspiración contemporánea que combina calidez y carácter.
+            La mezcla de madera, texturas suaves y líneas limpias crea un espacio equilibrado y sofisticado.  
+              </p>
+
+          <span class="mb-3">Precio: $9,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4 mt-auto">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCTO 6 -->
+      <div class="col-md-4">
+        <img src="./img/producto6.jpg" class="w-100 img-cover" alt="SOFA PURE">
+
+        <div class="bg-secondary p-3 d-flex flex-column justify-content-center producto-card text-center">
+          <h3>SOFA PURE</h3>
+
+          <p>
+            Un sofá de diseño escandinavo que combina sencillez, confort y equilibrio.
+            Sus líneas limpias, tapizado en tonos neutros y detalles en madera natural crean un ambiente luminoso y acogedor.
+          </p>
+
+          <span class="mb-3">Precio: $13,000</span>
+
+          <button class="btn btn-light btn-sm align-self-center px-4 mt-auto">
+            Comprar
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<h2 class="py-3 text-center">CATEGORIAS</h2>
+
+
+<section class="my-4">
+  <div class="container">
+    <div class="row g-4">
+
+  
+      <div class="col-12 col-md-4">
+        <div class="cat-card">
+          <img src="./img/Office.webp" class="cat-img" alt="Oficina">
+          <div class="cat-title">Oficina</div>
+        </div>
+      </div>
+
+  
+      <div class="col-12 col-md-4">
+        <div class="cat-card">
+          <img src="./img/outdoor.jpg" class="cat-img" alt="Jardín">
+          <div class="cat-title">Jardín</div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-4">
+        <div class="cat-card">
+          <img src="./img/kitchen.jpg" class="cat-img" alt="Cocina">
+          <div class="cat-title">Cocina</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer mt-5">
+  <section class="footer-main py-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <h5 class="footer-title">Categorías</h5>
+        <ul class="footer-links">
+          <li><a href="#">Cocina</a></li>
+          <li><a href="#">Oficina</a></li>
+          <li><a href="#">Jardín</a></li>
+          <li><a href="#">Cochera</a></li>
+          <li><a href="#">Dormitorios</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <h5 class="footer-title">Sobre Nosotros</h5>
+        <ul class="footer-links">
+          <li><a href="#">Nuestra historia</a></li>
+          <li><a href="#">Misión, visión y valores</a></li>
+          <li><a href="#">Carrera</a></li>
+          <li><a href="#">Políticas de privacidad</a></li>
+          <li><a href="#">Términos del servicio</a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <h5 class="footer-title">Soporte</h5>
+        <ul class="footer-links">
+          <li><a href="#">Preguntas frecuentes</a></li>
+          <li><a href="#">Ayuda en línea</a></li>
+          <li><a href="#">Confianza y seguridad</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section>
+<div class="footer-last">
+  © 2026 NUVO Mueblería. Todos los derechos reservados.
+</div>
+</section>
+
+</footer>
+
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+header h1 span {
+  font-style: italic;
+  font-weight: 400;
+  color: gray;
+}
+
+.navbar {
+  background-color: black;  
+}
+
+
+.navbar .nav-link {
+  color: white;
+  font-size: larger;
+}
+
+
+.navbar .nav-link:hover {
+  color: gray;
+  font-style: italic;
+}
+
+
+.navbar .nav-link.active {
+  color: white;
+  font-weight: bold;
+}
+
+
+h2{
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  font-weight: 600;
+  font-size: large;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color :gray
+}
+
+h3{
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  font-weight: 400;
+  font-style: bold;
+  font-size:x-large;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color :white;
+}
+
+main p{
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  font-size: medium;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color :antiquewhite;
+}
+
+main span{
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  font-size: medium;
+  text-align:center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color :white;
+}
+
+main button{
+  font-family: 'PLAYFAIR DISPLAY', serif;
+  font-size: medium;
+  text-align:center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: rgb(236, 222, 222);
+}
+
+
+.img-cover {
+  object-fit: cover;
+ transition: transform 1s ease, box-shadow 1s ease;
+}
+
+.img-cover:hover {
+  transform: scale(1.12); /* más zoom */
+  box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+}
+
+
+.producto-card{
+  min-height: 300px;   
+}
+
+@media (max-width: 768px){
+  .producto-card{
+    min-height: auto;
+  }
+}
+
+
+.cat-card{
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;      
+  background: antiquewhite;
+  text-align: center;
+}
+
+
+.cat-img{
+  width: 100%;
+  height: 280px;         
+  object-fit: cover;       
+  display: block;
+}
+
+
+.cat-title{
+  padding: 12px;
+  font-weight: 600;
+  color: antiquewhite;       
+  background: gray;     
+}
+
+.site-footer{
+  background: rgb(126, 101, 83);   
+  color: #fff;
+}
+
+.footer-title{
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.footer-links{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li{
+  margin: px 0;
+}
+
+.footer-links a{
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.footer-links a:hover{
+  color: #0f0f0f;
+  text-decoration: underline;
+}
+
+.footer-last {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 25px;
+}
